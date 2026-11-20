@@ -1,0 +1,97 @@
+# numbers quoted in report/main.tex (generated)
+thresholds (theta, non-NaN):
+                         min   max
+topology regime method            
+dense    full   brd     0.75  0.75
+         part   brd     0.75  0.75
+BRD convergence (share of cells):
+                converged cycled
+topology regime                 
+dense    full        0.24   0.76
+         part         0.4    0.6
+ring     full         0.0    1.0
+         part         0.0    1.0
+learner convergence (share of runs):
+method
+iql     0.7
+sql    0.52
+deadlock by regime (rho=0):
+regime            full   part
+topology method              
+dense    brd     0.751  0.600
+         fp      0.144  0.082
+         iql     0.000  0.000
+         sql     0.000  0.000
+ring     brd     0.000  0.000
+         fp      0.110  0.039
+         iql     0.000  0.000
+         sql     0.047  0.017
+stage1 exact PoA by rho:
+rho
+0.00    1.805
+0.05    1.741
+0.10    1.571
+0.20    1.398
+0.50    1.346
+stage1 exact PoA by D at rho (rows D):
+rho      0.00  0.05  0.10  0.20  0.50
+D                                    
+0.000    1.81  1.80  1.76  1.70  1.64
+0.100    1.82  1.82  1.78  1.67  1.65
+0.562    1.84  1.44  1.34  1.31  1.70
+3.162    1.80  1.80  1.08  1.11  1.02
+17.783   1.79  1.79  1.71  1.03  1.01
+100.000  1.79  1.79  1.76  1.57  1.06
+stage1 exact PoA by rk (rho=0):
+rk
+0.5    1.27
+1.0    1.47
+2.0    1.74
+4.0    2.08
+8.0    2.46
+stage1 max |MC - exact| PoA:
+0.109
+stage1 max deadlock:
+0.078
+Q-learning stability (rho=0): mean across-seed sd of C per cell:
+topology  method
+dense     iql        0.99
+          sql        1.11
+ring      iql        1.01
+          sql       17.08
+latency by method (rho=0):
+topology           dense   ring
+method                         
+always-request       NaN    NaN
+bankers             6.00   3.00
+brd                 5.25    NaN
+centralized         6.00   3.00
+exp-backoff         8.05  11.74
+fp                  8.44   5.86
+iql                 5.92   3.63
+resource-ordering   6.00   3.26
+sql                 7.41  10.26
+standoff (n=2) by method, rho=0:
+                   deadlock  stall  completion  poa_hat  epsilon
+method                                                          
+always-request        1.000  0.000       0.000  417.489  262.333
+bankers               0.000  0.000       1.000    1.000      NaN
+brd                   0.000  1.000       0.000   12.400   10.780
+centralized           0.000  0.000       1.000    1.000      NaN
+exp-backoff           0.000  0.148       0.886   74.114      NaN
+fp                    0.107  0.165       0.822   29.690   16.944
+iql                   0.000  0.415       0.781    3.553    5.025
+resource-ordering     0.000  0.000       1.000    1.000      NaN
+spe                   0.016  0.006       0.994    1.794    0.000
+sql                   0.022  0.652       0.333   10.995   10.148
+CPU hours by method:
+method
+always-request        0.01
+bankers               0.00
+brd                   0.17
+centralized           0.01
+exp-backoff           0.04
+fp                   16.31
+iql                   5.08
+resource-ordering     0.00
+sql                   7.24

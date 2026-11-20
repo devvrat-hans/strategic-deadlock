@@ -1,0 +1,17 @@
+topology,method,rho,better,worse,cells
+dense,iql,0.05,2,0,60
+dense,iql,0.1,6,0,60
+dense,iql,0.2,7,0,60
+dense,iql,0.5,15,1,60
+dense,sql,0.05,5,0,60
+dense,sql,0.1,12,1,60
+dense,sql,0.2,15,1,60
+dense,sql,0.5,8,3,60
+ring,iql,0.05,0,3,60
+ring,iql,0.1,1,0,60
+ring,iql,0.2,4,1,60
+ring,iql,0.5,5,0,60
+ring,sql,0.05,0,0,60
+ring,sql,0.1,1,0,60
+ring,sql,0.2,0,1,60
+ring,sql,0.5,4,0,60
