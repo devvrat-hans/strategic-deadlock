@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.partial
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+.DS_Store
+
+# local notes and course material (not part of the submission)
+HANDOFF.md
+Multi_Agent_Systems_Project_Guidelines.pdf
