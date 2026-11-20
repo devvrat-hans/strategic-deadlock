@@ -54,8 +54,8 @@ and independent/shared Q-learning over a grid of 14{,}040 runs. We find that (i)
 deadlock (deadlock probability $\delta\le0.08$) but are still inefficient (Price of Anarchy up to $2.6$), and learning
 agents on the same game do worse than the equilibrium; (ii) with three
 agents, deadlock is driven by the \emph{dynamics}, not the payoffs: best-response dynamics on the dense topology deadlocks
-for every $R/K\ge1$ (threshold $\theta\approx0.75$, independent of $D$), while Q-learners avoid deadlock but stall
-instead; (iii) partial information lowers $\delta$ for every method; and (iv) a coordinator-free escalating holding cost
+for $R/K$ from 1 to 4 (threshold $\theta\approx0.75$, independent of $D$), while Q-learners avoid deadlock but stall
+instead; (iii) partial information lowers $\delta$ for every method that deadlocks; and (iv) a coordinator-free escalating holding cost
 reduces the two-agent PoA from $1.81$ to $1.35$, but closes at most $\approx15\%$ of the gap to the centralized optimum for
 three learning agents.
 \end{abstract}
@@ -264,8 +264,9 @@ $\PoAhat$ (log scale). Solid lines: full information, dashed: partial.}
 (Figures~\ref{fig:rq1}b and~\ref{fig:regimes}): $\delta=0$ at $R/K=0.5$ and $\delta=1$ for $R/K\in\{1,2,4\}$, so
 $\theta\approx0.75$ (linear interpolation), for \emph{every} $D$ and both information regimes. When completion is
 worth little ($R/K=0.5$) best responses stop requesting; once it is worth more than a yield, each agent's best response to
-the others' current policy is to insist, and with simultaneous updates all agents insist together. At $R/K=8$ the
-dynamics sometimes escape ($\delta=0.76$ full, $0.04$ partial). This transition is a property of the \emph{dynamics}: BRD
+the others' current policy is to insist, and with simultaneous updates all agents insist together. At $R/K=8$ it
+depends on the information: $\delta$ is still $0.76$ with full information, but with partial information the dynamics
+always escape ($\delta=0$). This transition is a property of the \emph{dynamics}: BRD
 converged in only 24\% (full) and 40\% (partial) of dense cells and cycled otherwise, and the reached profiles are far from
 equilibrium (median $\varepsilon=22$). The penalty $D$ does not move $\theta$: by the time agents are in a cycle they are
 already committed.
@@ -287,8 +288,8 @@ makes participating less attractive.
 \textbf{Learners avoid deadlock.} Independent Q-learning never deadlocks, shared Q-learning has $\delta\le0.05$ on
 average (at most $0.3$ in a single cell, $0$ on dense), and fictitious play stays below $0.35$ in every cell. On the ring, $\delta$ of FP and shared-Q \emph{rises} with
 $R/K$ (from $0.02$ to $0.25$ for FP with full information), matching the intuition of RQ1, but never crosses
-$\tfrac12$. Independent Q-learning is the most efficient selfish profile ($\PoAhat=3.1$ ring, $2.1$ dense) and the least
-exploitable (median $\varepsilon\approx3$--$6$, against rewards of $2$--$32$); 70\% of its runs met the convergence rule,
+$\tfrac12$. Independent Q-learning is the most efficient selfish profile ($\PoAhat=3.1$ ring, $2.1$ dense) and, on the dense
+topology, the least exploitable (median $\varepsilon\approx3$ there and $6$ on the ring, against rewards of $2$--$32$); 70\% of its runs met the convergence rule,
 against 52\% for shared Q. Contrary to our expectation, sharing parameters made learning \emph{less} stable: on the ring
 the standard deviation of $C$ across the 10 seeds of a cell is $17.1$ for shared Q against $1.0$ for independent Q
 (dense: $1.1$ vs $1.0$), visible as the wide confidence interval in Table~\ref{tab:methods}. With one table, all three
@@ -357,7 +358,7 @@ while holding) cannot fix: an agent that holds nothing pays nothing.
 \begin{enumerate}
 \item \emph{Exact two-agent threshold reproduced in simulation:} partly. Stage 1 gives exact equilibria and $h^\star$, but
 $\delta$ never reaches $\tfrac12$ for two agents, so there is no two-agent $\theta$. Run on the same game, the simulation
-methods reproduce the low deadlock rate but not the equilibrium itself: they cost $2$--$16\times$ more and stall
+methods reproduce the low deadlock rate but not the equilibrium itself: they cost $2$--$17\times$ more and stall
 (Table~\ref{tab:standoff}). A sharp threshold ($\theta\approx0.75$) appears only for three-agent best-response
 dynamics.
 \item \emph{Regions of reliable deadlock and livelock:} deadlock regions are clear: in the dense BRD cells with $R/K\in[1,4]$
@@ -401,7 +402,7 @@ The stall metric was added beyond the plan after the Stage 2 results.
 \section{Conclusion}
 Without a coordinator, two selfish agents resolve standoffs almost immediately but inefficiently, and an escalating
 holding cost removes most of that inefficiency. With three agents, whether they deadlock depends less on the payoffs than
-on how they adapt: myopic simultaneous best responses lock the dense topology into deadlock for every $R/K\ge1$, while
+on how they adapt: myopic simultaneous best responses lock the dense topology into deadlock for $R/K$ from 1 to 4, while
 Q-learners avoid deadlock but stall by abstaining, more so when the deadlock penalty is high. Less information makes agents more cautious and deadlock less likely. A
 self-computed holding cost is safe (it never created livelock) but closes at most about 15\% of the gap to the optimum for
 three learning agents, because it does not act on agents that hold nothing. Mechanisms that reward \emph{progress}, rather
