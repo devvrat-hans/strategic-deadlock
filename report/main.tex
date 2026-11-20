@@ -304,7 +304,7 @@ with incomplete agents anyway (Table~\ref{tab:methods}, Figure~\ref{fig:regimes}
 with period two between ``everyone requests'' (deadlock) and ``nobody requests'' (each agent's best response to aggressive
 opponents is to stay out); the profile at which the cycle is detected is the passive one, so no agent ever completes
 ($C=nR$, $\delta=\lambda=0$). Stalls end $39\%$ (independent Q) and $64\%$ (shared Q) of the
-learners' ring episodes and about half of their dense episodes. Q-learners stall by \emph{abstaining}: in their incomplete episodes the unfinished agents hold no lock and never
+learners' ring episodes and about half of their dense episodes. Q-learners mostly stall by \emph{abstaining}: in most of their incomplete episodes the unfinished agents hold no lock and never
 request one. Abstention grows when completion is worth little (at $R/K=0.5$ abstaining is individually rational, since
 the holding cost of three locks exceeds $R$) and when the circular-wait penalty is large: averaged over $R/K$, the
 completion rate of shared Q on the ring falls from $0.34$ at $D=0$ to $0.19$ at $D/c_0=100$. A large $D$ does not cause
