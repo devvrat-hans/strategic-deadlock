@@ -1,0 +1,165 @@
+14040 cells -> results/all
+[140/14040] cells done
+[280/14040] cells done
+[420/14040] cells done
+[560/14040] cells done
+[700/14040] cells done
+[840/14040] cells done
+[980/14040] cells done
+[1120/14040] cells done
+[1260/14040] cells done
+[1400/14040] cells done
+[1540/14040] cells done
+[1680/14040] cells done
+[1820/14040] cells done
+[1960/14040] cells done
+[2100/14040] cells done
+[2240/14040] cells done
+[2380/14040] cells done
+[2520/14040] cells done
+[2660/14040] cells done
+[2800/14040] cells done
+[2940/14040] cells done
+[3080/14040] cells done
+[3220/14040] cells done
+[3360/14040] cells done
+[3500/14040] cells done
+[3640/14040] cells done
+[3780/14040] cells done
+[3920/14040] cells done
+[4060/14040] cells done
+[4200/14040] cells done
+[4340/14040] cells done
+[4480/14040] cells done
+[4620/14040] cells done
+[4760/14040] cells done
+[4900/14040] cells done
+[5040/14040] cells done
+[5180/14040] cells done
+[5320/14040] cells done
+[5460/14040] cells done
+[5600/14040] cells done
+[5740/14040] cells done
+[5880/14040] cells done
+[6020/14040] cells done
+[6160/14040] cells done
+[6300/14040] cells done
+[6440/14040] cells done
+[6580/14040] cells done
+[6720/14040] cells done
+[6860/14040] cells done
+[7000/14040] cells done
+[7140/14040] cells done
+[7280/14040] cells done
+[7420/14040] cells done
+[7560/14040] cells done
+[7700/14040] cells done
+[7840/14040] cells done
+[7980/14040] cells done
+[8120/14040] cells done
+[8260/14040] cells done
+[8400/14040] cells done
+[8540/14040] cells done
+[8680/14040] cells done
+[8820/14040] cells done
+[8960/14040] cells done
+[9100/14040] cells done
+[9240/14040] cells done
+[9380/14040] cells done
+[9520/14040] cells done
+[9660/14040] cells done
+[9800/14040] cells done
+[9940/14040] cells done
+[10080/14040] cells done
+[10220/14040] cells done
+[10360/14040] cells done
+[10500/14040] cells done
+[10640/14040] cells done
+[10780/14040] cells done
+[10920/14040] cells done
+[11060/14040] cells done
+[11200/14040] cells done
+[11340/14040] cells done
+[11480/14040] cells done
+[11620/14040] cells done
+[11760/14040] cells done
+[11900/14040] cells done
+[12040/14040] cells done
+[12180/14040] cells done
+[12320/14040] cells done
+[12460/14040] cells done
+[12600/14040] cells done
+[12740/14040] cells done
+[12880/14040] cells done
+[13020/14040] cells done
+[13160/14040] cells done
+[13300/14040] cells done
+[13440/14040] cells done
+[13580/14040] cells done
+[13720/14040] cells done
+[13860/14040] cells done
+[14000/14040] cells done
+topology            method regime  rk     D  rho  deadlock  livelock  completion  social_cost  poa_hat  epsilon  g_rho
+   dense    always-request   full 0.5   0.0 0.00     1.000       0.0       0.000       46.000    7.667   12.830    NaN
+   dense           bankers   full 0.5   0.0 0.00     0.000       0.0       1.000        6.000    1.000      NaN    NaN
+   dense               brd   full 0.5   0.0 0.00     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense       centralized   full 0.5   0.0 0.00     0.000       0.0       1.000        6.000    1.000      NaN    NaN
+   dense       exp-backoff   full 0.5   0.0 0.00     0.000       0.0       0.944       19.322    3.220      NaN    NaN
+   dense                fp   full 0.5   0.0 0.00     0.204       0.0       0.492       12.266    2.044    1.663    NaN
+   dense               iql   full 0.5   0.0 0.00     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense resource-ordering   full 0.5   0.0 0.00     0.000       0.0       1.000        6.000    1.000      NaN    NaN
+   dense               sql   full 0.5   0.0 0.00     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               brd   part 0.5   0.0 0.00     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense                fp   part 0.5   0.0 0.00     0.160       0.0       0.515       11.042    1.840    1.663    NaN
+   dense               iql   part 0.5   0.0 0.00     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               sql   part 0.5   0.0 0.00     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               brd   full 0.5   0.0 0.05     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense                fp   full 0.5   0.0 0.05     0.204       0.0       0.492       12.266    2.044    2.322  0.000
+   dense               iql   full 0.5   0.0 0.05     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               sql   full 0.5   0.0 0.05     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               brd   part 0.5   0.0 0.05     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense                fp   part 0.5   0.0 0.05     0.160       0.0       0.515       11.042    1.840    2.322  0.000
+   dense               iql   part 0.5   0.0 0.05     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               sql   part 0.5   0.0 0.05     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               brd   full 0.5   0.0 0.10     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense                fp   full 0.5   0.0 0.10     0.204       0.0       0.492       12.266    2.044    3.374  0.000
+   dense               iql   full 0.5   0.0 0.10     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               sql   full 0.5   0.0 0.10     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               brd   part 0.5   0.0 0.10     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense                fp   part 0.5   0.0 0.10     0.160       0.0       0.515       11.042    1.840    3.374  0.000
+   dense               iql   part 0.5   0.0 0.10     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               sql   part 0.5   0.0 0.10     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+   dense               brd   full 0.5   0.0 0.20     0.000       0.0       0.000        6.000    1.000    0.000    NaN
+     ...               ...    ...  ..   ...  ...       ...       ...         ...          ...      ...      ...    ...
+    ring               iql   full 8.0 100.0 0.05     0.000       0.0       1.000       14.100    4.700    7.678 -0.047
+    ring               sql   full 8.0 100.0 0.05     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring               brd   part 8.0 100.0 0.05     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring                fp   part 8.0 100.0 0.05     0.032       0.0       0.986      126.632   42.211   25.815  0.633
+    ring               iql   part 8.0 100.0 0.05     0.000       0.0       1.000       10.200    3.400    7.366  0.053
+    ring               sql   part 8.0 100.0 0.05     0.000       0.0       0.893       42.562   14.187   17.547  0.277
+    ring               brd   full 8.0 100.0 0.10     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring                fp   full 8.0 100.0 0.10     0.330       0.0       0.666     1596.618  532.206  349.346  0.000
+    ring               iql   full 8.0 100.0 0.10     0.000       0.0       1.000       13.200    4.400    7.210  0.038
+    ring               sql   full 8.0 100.0 0.10     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring               brd   part 8.0 100.0 0.10     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring                fp   part 8.0 100.0 0.10     0.026       0.0       0.992       90.888   30.296   24.741  0.739
+    ring               iql   part 8.0 100.0 0.10     0.000       0.0       1.000       10.400    3.467    7.366  0.026
+    ring               sql   part 8.0 100.0 0.10     0.000       0.0       0.992       30.225   10.075   14.605  0.503
+    ring               brd   full 8.0 100.0 0.20     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring                fp   full 8.0 100.0 0.20     0.330       0.0       0.666     1596.618  532.206  369.229  0.000
+    ring               iql   full 8.0 100.0 0.20     0.000       0.0       1.000       13.600    4.533    7.727  0.000
+    ring               sql   full 8.0 100.0 0.20     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring               brd   part 8.0 100.0 0.20     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring                fp   part 8.0 100.0 0.20     0.016       0.0       0.993       72.044   24.015   19.659  0.795
+    ring               iql   part 8.0 100.0 0.20     0.000       0.0       1.000       10.600    3.533    7.366  0.000
+    ring               sql   part 8.0 100.0 0.20     0.000       0.0       0.986       32.087   10.696   15.646  0.469
+    ring               brd   full 8.0 100.0 0.50     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring                fp   full 8.0 100.0 0.50     0.330       0.0       0.666     1596.618  532.206 1195.534  0.000
+    ring               iql   full 8.0 100.0 0.50     0.000       0.0       1.000       12.600    4.200    8.095  0.094
+    ring               sql   full 8.0 100.0 0.50     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring               brd   part 8.0 100.0 0.50     0.000       0.0       0.000       96.000   32.000   29.400  0.000
+    ring                fp   part 8.0 100.0 0.50     0.030       0.0       0.970      157.918   52.639  107.033  0.541
+    ring               iql   part 8.0 100.0 0.50     0.000       0.0       1.000        9.800    3.267    7.366  0.105
+    ring               sql   part 8.0 100.0 0.50     0.000       0.0       0.995       29.451    9.817   15.340  0.517
+
+wrote results/all/raw.csv, summary.csv, thresholds.csv

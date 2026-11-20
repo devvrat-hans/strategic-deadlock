@@ -1,0 +1,167 @@
+3480 cells -> results/outcomes
+[34/3480] cells done
+[68/3480] cells done
+[102/3480] cells done
+[136/3480] cells done
+[170/3480] cells done
+[204/3480] cells done
+[238/3480] cells done
+[272/3480] cells done
+[306/3480] cells done
+[340/3480] cells done
+[374/3480] cells done
+[408/3480] cells done
+[442/3480] cells done
+[476/3480] cells done
+[510/3480] cells done
+[544/3480] cells done
+[578/3480] cells done
+[612/3480] cells done
+[646/3480] cells done
+[680/3480] cells done
+[714/3480] cells done
+[748/3480] cells done
+[782/3480] cells done
+[816/3480] cells done
+[850/3480] cells done
+[884/3480] cells done
+[918/3480] cells done
+[952/3480] cells done
+[986/3480] cells done
+[1020/3480] cells done
+[1054/3480] cells done
+[1088/3480] cells done
+[1122/3480] cells done
+[1156/3480] cells done
+[1190/3480] cells done
+[1224/3480] cells done
+[1258/3480] cells done
+[1292/3480] cells done
+[1326/3480] cells done
+[1360/3480] cells done
+[1394/3480] cells done
+[1428/3480] cells done
+[1462/3480] cells done
+[1496/3480] cells done
+[1530/3480] cells done
+[1564/3480] cells done
+[1598/3480] cells done
+[1632/3480] cells done
+[1666/3480] cells done
+[1700/3480] cells done
+[1734/3480] cells done
+[1768/3480] cells done
+[1802/3480] cells done
+[1836/3480] cells done
+[1870/3480] cells done
+[1904/3480] cells done
+[1938/3480] cells done
+[1972/3480] cells done
+[2006/3480] cells done
+[2040/3480] cells done
+[2074/3480] cells done
+[2108/3480] cells done
+[2142/3480] cells done
+[2176/3480] cells done
+[2210/3480] cells done
+[2244/3480] cells done
+[2278/3480] cells done
+[2312/3480] cells done
+[2346/3480] cells done
+[2380/3480] cells done
+[2414/3480] cells done
+[2448/3480] cells done
+[2482/3480] cells done
+[2516/3480] cells done
+[2550/3480] cells done
+[2584/3480] cells done
+[2618/3480] cells done
+[2652/3480] cells done
+[2686/3480] cells done
+[2720/3480] cells done
+[2754/3480] cells done
+[2788/3480] cells done
+[2822/3480] cells done
+[2856/3480] cells done
+[2890/3480] cells done
+[2924/3480] cells done
+[2958/3480] cells done
+[2992/3480] cells done
+[3026/3480] cells done
+[3060/3480] cells done
+[3094/3480] cells done
+[3128/3480] cells done
+[3162/3480] cells done
+[3196/3480] cells done
+[3230/3480] cells done
+[3264/3480] cells done
+[3298/3480] cells done
+[3332/3480] cells done
+[3366/3480] cells done
+[3400/3480] cells done
+[3434/3480] cells done
+[3468/3480] cells done
+topology            method regime  rk       D  rho  deadlock  livelock  stall  completion  social_cost  poa_hat  epsilon  g_rho
+   dense    always-request   full 0.5   0.000  0.0     1.000       0.0  0.000       0.000       46.000    7.667   12.830    NaN
+   dense           bankers   full 0.5   0.000  0.0     0.000       0.0  0.000       1.000        6.000    1.000      NaN    NaN
+   dense               brd   full 0.5   0.000  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense       centralized   full 0.5   0.000  0.0     0.000       0.0  0.000       1.000        6.000    1.000      NaN    NaN
+   dense       exp-backoff   full 0.5   0.000  0.0     0.000       0.0  0.102       0.944       19.322    3.220      NaN    NaN
+   dense                fp   full 0.5   0.000  0.0     0.204       0.0  0.656       0.492       12.266    2.044    1.663    NaN
+   dense               iql   full 0.5   0.000  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense resource-ordering   full 0.5   0.000  0.0     0.000       0.0  0.000       1.000        6.000    1.000      NaN    NaN
+   dense               sql   full 0.5   0.000  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense               brd   part 0.5   0.000  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense                fp   part 0.5   0.000  0.0     0.160       0.0  0.690       0.515       11.042    1.840    1.663    NaN
+   dense               iql   part 0.5   0.000  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense               sql   part 0.5   0.000  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense    always-request   full 0.5   0.100  0.0     1.000       0.0  0.000       0.000       49.600    8.267   13.918    NaN
+   dense           bankers   full 0.5   0.100  0.0     0.000       0.0  0.000       1.000        6.000    1.000      NaN    NaN
+   dense               brd   full 0.5   0.100  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense       centralized   full 0.5   0.100  0.0     0.000       0.0  0.000       1.000        6.000    1.000      NaN    NaN
+   dense       exp-backoff   full 0.5   0.100  0.0     0.000       0.0  0.102       0.944       19.615    3.269      NaN    NaN
+   dense                fp   full 0.5   0.100  0.0     0.204       0.0  0.656       0.492       12.804    2.134    1.796    NaN
+   dense               iql   full 0.5   0.100  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense resource-ordering   full 0.5   0.100  0.0     0.000       0.0  0.000       1.000        6.000    1.000      NaN    NaN
+   dense               sql   full 0.5   0.100  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense               brd   part 0.5   0.100  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense                fp   part 0.5   0.100  0.0     0.160       0.0  0.690       0.515       11.470    1.912    1.796    NaN
+   dense               iql   part 0.5   0.100  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense               sql   part 0.5   0.100  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense    always-request   full 0.5   0.562  0.0     1.000       0.0  0.000       0.000       66.232   11.039   18.945    NaN
+   dense           bankers   full 0.5   0.562  0.0     0.000       0.0  0.000       1.000        6.000    1.000      NaN    NaN
+   dense               brd   full 0.5   0.562  0.0     0.000       0.0  1.000       0.000        6.000    1.000    0.000    NaN
+   dense       centralized   full 0.5   0.562  0.0     0.000       0.0  0.000       1.000        6.000    1.000      NaN    NaN
+     ...               ...    ...  ..     ...  ...       ...       ...    ...         ...          ...      ...      ...    ...
+    ring               brd   part 8.0   3.162  0.0     0.000       0.0  1.000       0.000       96.000   32.000   29.400    NaN
+    ring                fp   part 8.0   3.162  0.0     0.076       0.0  0.002       0.922       27.904    9.301    5.590    NaN
+    ring               iql   part 8.0   3.162  0.0     0.000       0.0  0.000       1.000       10.000    3.333    7.366    NaN
+    ring               sql   part 8.0   3.162  0.0     0.000       0.0  0.015       0.990       33.047   11.016   15.360    NaN
+    ring    always-request   full 8.0  17.783  0.0     1.000       0.0  0.000       0.000     1169.631  389.877  249.742    NaN
+    ring           bankers   full 8.0  17.783  0.0     0.000       0.0  0.000       1.000        4.000    1.333      NaN    NaN
+    ring               brd   full 8.0  17.783  0.0     0.000       0.0  1.000       0.000       96.000   32.000   29.400    NaN
+    ring       centralized   full 8.0  17.783  0.0     0.000       0.0  0.000       1.000        3.000    1.000      NaN    NaN
+    ring       exp-backoff   full 8.0  17.783  0.0     0.000       0.0  0.058       0.970      161.433   53.811      NaN    NaN
+    ring                fp   full 8.0  17.783  0.0     0.244       0.0  0.000       0.756      265.879   88.626   55.111    NaN
+    ring               iql   full 8.0  17.783  0.0     0.000       0.0  0.000       1.000       12.500    4.167    7.620    NaN
+    ring resource-ordering   full 8.0  17.783  0.0     0.000       0.0  0.000       1.000        4.000    1.333      NaN    NaN
+    ring               sql   full 8.0  17.783  0.0     0.000       0.0  0.253       0.808      121.809   40.603   39.001    NaN
+    ring               brd   part 8.0  17.783  0.0     0.000       0.0  1.000       0.000       96.000   32.000   29.400    NaN
+    ring                fp   part 8.0  17.783  0.0     0.074       0.0  0.004       0.922       74.838   24.946   14.980    NaN
+    ring               iql   part 8.0  17.783  0.0     0.000       0.0  0.000       1.000       10.200    3.400    7.366    NaN
+    ring               sql   part 8.0  17.783  0.0     0.000       0.0  0.019       0.988       31.875   10.625   15.043    NaN
+    ring    always-request   full 8.0 100.000  0.0     1.000       0.0  0.000       0.000     5856.000 1952.000 1222.392    NaN
+    ring           bankers   full 8.0 100.000  0.0     0.000       0.0  0.000       1.000        4.000    1.333      NaN    NaN
+    ring               brd   full 8.0 100.000  0.0     0.000       0.0  1.000       0.000       96.000   32.000   29.400    NaN
+    ring       centralized   full 8.0 100.000  0.0     0.000       0.0  0.000       1.000        3.000    1.000      NaN    NaN
+    ring       exp-backoff   full 8.0 100.000  0.0     0.000       0.0  0.058       0.970      753.346  251.115      NaN    NaN
+    ring                fp   full 8.0 100.000  0.0     0.330       0.0  0.004       0.666     1596.618  532.206  342.917    NaN
+    ring               iql   full 8.0 100.000  0.0     0.000       0.0  0.000       1.000       13.600    4.533    7.851    NaN
+    ring resource-ordering   full 8.0 100.000  0.0     0.000       0.0  0.000       1.000        4.000    1.333      NaN    NaN
+    ring               sql   full 8.0 100.000  0.0     0.000       0.0  1.000       0.000       96.000   32.000   29.400    NaN
+    ring               brd   part 8.0 100.000  0.0     0.000       0.0  1.000       0.000       96.000   32.000   29.400    NaN
+    ring                fp   part 8.0 100.000  0.0     0.076       0.0  0.004       0.920      340.158  113.386   65.623    NaN
+    ring               iql   part 8.0 100.000  0.0     0.000       0.0  0.000       1.000       10.600    3.533    7.366    NaN
+    ring               sql   part 8.0 100.000  0.0     0.000       0.0  0.220       0.786       57.752   19.251   20.149    NaN
+
+wrote results/outcomes/raw.csv, summary.csv, thresholds.csv

@@ -1,0 +1,165 @@
+7320 cells -> results/standoff
+[73/7320] cells done
+[146/7320] cells done
+[219/7320] cells done
+[292/7320] cells done
+[365/7320] cells done
+[438/7320] cells done
+[511/7320] cells done
+[584/7320] cells done
+[657/7320] cells done
+[730/7320] cells done
+[803/7320] cells done
+[876/7320] cells done
+[949/7320] cells done
+[1022/7320] cells done
+[1095/7320] cells done
+[1168/7320] cells done
+[1241/7320] cells done
+[1314/7320] cells done
+[1387/7320] cells done
+[1460/7320] cells done
+[1533/7320] cells done
+[1606/7320] cells done
+[1679/7320] cells done
+[1752/7320] cells done
+[1825/7320] cells done
+[1898/7320] cells done
+[1971/7320] cells done
+[2044/7320] cells done
+[2117/7320] cells done
+[2190/7320] cells done
+[2263/7320] cells done
+[2336/7320] cells done
+[2409/7320] cells done
+[2482/7320] cells done
+[2555/7320] cells done
+[2628/7320] cells done
+[2701/7320] cells done
+[2774/7320] cells done
+[2847/7320] cells done
+[2920/7320] cells done
+[2993/7320] cells done
+[3066/7320] cells done
+[3139/7320] cells done
+[3212/7320] cells done
+[3285/7320] cells done
+[3358/7320] cells done
+[3431/7320] cells done
+[3504/7320] cells done
+[3577/7320] cells done
+[3650/7320] cells done
+[3723/7320] cells done
+[3796/7320] cells done
+[3869/7320] cells done
+[3942/7320] cells done
+[4015/7320] cells done
+[4088/7320] cells done
+[4161/7320] cells done
+[4234/7320] cells done
+[4307/7320] cells done
+[4380/7320] cells done
+[4453/7320] cells done
+[4526/7320] cells done
+[4599/7320] cells done
+[4672/7320] cells done
+[4745/7320] cells done
+[4818/7320] cells done
+[4891/7320] cells done
+[4964/7320] cells done
+[5037/7320] cells done
+[5110/7320] cells done
+[5183/7320] cells done
+[5256/7320] cells done
+[5329/7320] cells done
+[5402/7320] cells done
+[5475/7320] cells done
+[5548/7320] cells done
+[5621/7320] cells done
+[5694/7320] cells done
+[5767/7320] cells done
+[5840/7320] cells done
+[5913/7320] cells done
+[5986/7320] cells done
+[6059/7320] cells done
+[6132/7320] cells done
+[6205/7320] cells done
+[6278/7320] cells done
+[6351/7320] cells done
+[6424/7320] cells done
+[6497/7320] cells done
+[6570/7320] cells done
+[6643/7320] cells done
+[6716/7320] cells done
+[6789/7320] cells done
+[6862/7320] cells done
+[6935/7320] cells done
+[7008/7320] cells done
+[7081/7320] cells done
+[7154/7320] cells done
+[7227/7320] cells done
+[7300/7320] cells done
+topology            method regime  rk     D  rho  deadlock  livelock  stall  completion  social_cost  poa_hat  epsilon  g_rho
+standoff    always-request   full 0.5   0.0 0.00     1.000     0.000  0.000       0.000       44.000   22.000   13.643    NaN
+standoff           bankers   full 0.5   0.0 0.00     0.000     0.000  0.000       1.000        2.000    1.000      NaN    NaN
+standoff               brd   full 0.5   0.0 0.00     0.000     0.000  1.000       0.000        4.000    2.000    0.900    NaN
+standoff       centralized   full 0.5   0.0 0.00     0.000     0.000  0.000       1.000        2.000    1.000      NaN    NaN
+standoff       exp-backoff   full 0.5   0.0 0.00     0.000     0.000  0.148       0.886       23.597   11.798      NaN    NaN
+standoff                fp   full 0.5   0.0 0.00     0.056     0.000  0.520       0.640        4.432    2.216    0.540    NaN
+standoff               iql   full 0.5   0.0 0.00     0.000     0.000  0.900       0.550        3.600    1.800    1.299    NaN
+standoff resource-ordering   full 0.5   0.0 0.00     0.000     0.000  0.000       1.000        2.000    1.000      NaN    NaN
+standoff               spe   full 0.5   0.0 0.00     0.012     0.000  0.026       0.976        2.530    1.265    0.000    NaN
+standoff               sql   full 0.5   0.0 0.00     0.000     0.000  1.000       0.000        4.000    2.000    0.900    NaN
+standoff               brd   part 0.5   0.0 0.00     0.000     0.000  1.000       0.000        4.000    2.000    0.900    NaN
+standoff                fp   part 0.5   0.0 0.00     0.056     0.000  0.520       0.640        4.432    2.216    0.540    NaN
+standoff               iql   part 0.5   0.0 0.00     0.000     0.000  1.000       0.500        3.000    1.500    0.812    NaN
+standoff               spe   part 0.5   0.0 0.00     0.012     0.000  0.026       0.976        2.530    1.265    0.000    NaN
+standoff               sql   part 0.5   0.0 0.00     0.000     0.000  1.000       0.000        4.000    2.000    0.900    NaN
+standoff               brd   full 0.5   0.0 0.05     0.000     0.000  1.000       0.000        4.000    2.000    0.900  0.000
+standoff                fp   full 0.5   0.0 0.05     0.056     0.000  0.520       0.640        4.432    2.216    0.732  0.000
+standoff               iql   full 0.5   0.0 0.05     0.000     0.000  1.000       0.500        3.000    1.500    0.812  0.375
+standoff               spe   full 0.5   0.0 0.05     0.018     0.000  0.038       0.965        2.624    1.312    0.000 -0.177
+standoff               sql   full 0.5   0.0 0.05     0.000     0.000  0.930       0.070        6.860    3.430    1.969 -1.430
+standoff               brd   part 0.5   0.0 0.05     0.000     0.000  1.000       0.000        4.000    2.000    0.900  0.000
+standoff                fp   part 0.5   0.0 0.05     0.056     0.000  0.520       0.640        4.432    2.216    0.732  0.000
+standoff               iql   part 0.5   0.0 0.05     0.000     0.000  1.000       0.500        3.000    1.500    0.812  0.000
+standoff               spe   part 0.5   0.0 0.05     0.018     0.000  0.038       0.965        2.624    1.312    0.000 -0.177
+standoff               sql   part 0.5   0.0 0.05     0.000     0.000  1.000       0.000        4.000    2.000    0.900  0.000
+standoff               brd   full 0.5   0.0 0.10     0.000     0.000  1.000       0.000        4.000    2.000    0.900  0.000
+standoff                fp   full 0.5   0.0 0.10     0.056     0.000  0.520       0.640        4.432    2.216    1.044  0.000
+standoff               iql   full 0.5   0.0 0.10     0.000     0.000  1.000       0.500        3.000    1.500    0.812  0.375
+standoff               spe   full 0.5   0.0 0.10     0.022     0.000  0.050       0.961        2.764    1.382    0.000 -0.442
+standoff               sql   full 0.5   0.0 0.10     0.000     0.000  1.000       0.000        4.000    2.000    0.900  0.000
+     ...               ...    ...  ..   ...  ...       ...       ...    ...         ...          ...      ...      ...    ...
+standoff               brd   full 8.0 100.0 0.10     0.000     0.000  1.000       0.000       64.000   32.000   29.400  0.000
+standoff                fp   full 8.0 100.0 0.10     0.162     0.000  0.226       0.662      446.190  223.095  150.078  0.000
+standoff               iql   full 8.0 100.0 0.10     0.000     0.000  0.400       0.800       20.200   10.100   13.817 -0.368
+standoff               spe   full 8.0 100.0 0.10     0.000     0.000  0.000       1.000        4.696    2.348    0.000 -0.039
+standoff               sql   full 8.0 100.0 0.10     0.000     0.000  1.000       0.000       64.000   32.000   29.400  0.000
+standoff               brd   part 8.0 100.0 0.10     0.000     0.000  1.000       0.000       64.000   32.000   29.400  0.000
+standoff                fp   part 8.0 100.0 0.10     0.002     0.000  0.016       0.992       34.754   17.377   11.623  0.405
+standoff               iql   part 8.0 100.0 0.10     0.000     0.000  0.000       1.000        7.900    3.950    7.366  0.017
+standoff               spe   part 8.0 100.0 0.10     0.000     0.000  0.000       1.000        4.696    2.348    0.000 -0.039
+standoff               sql   part 8.0 100.0 0.10     0.000     0.001  0.083       0.933       27.288   13.644   18.151  0.532
+standoff               brd   full 8.0 100.0 0.20     0.000     0.000  1.000       0.000       64.000   32.000   29.400  0.000
+standoff                fp   full 8.0 100.0 0.20     0.162     0.000  0.226       0.662      446.190  223.095  161.317  0.000
+standoff               iql   full 8.0 100.0 0.20     0.000     0.000  0.100       0.950       12.400    6.200    9.259  0.218
+standoff               spe   full 8.0 100.0 0.20     0.000     0.000  0.002       0.998        4.562    2.281    0.000  0.013
+standoff               sql   full 8.0 100.0 0.20     0.000     0.000  1.000       0.000       64.000   32.000   29.400  0.000
+standoff               brd   part 8.0 100.0 0.20     0.000     0.000  1.000       0.000       64.000   32.000   29.400  0.000
+standoff                fp   part 8.0 100.0 0.20     0.008     0.000  0.018       0.987       58.292   29.146   19.298 -0.023
+standoff               iql   part 8.0 100.0 0.20     0.000     0.000  0.000       1.000        8.000    4.000    7.366  0.000
+standoff               spe   part 8.0 100.0 0.20     0.000     0.000  0.002       0.998        4.562    2.281    0.000  0.013
+standoff               sql   part 8.0 100.0 0.20     0.000     0.001  0.098       0.920       29.226   14.613   19.362  0.496
+standoff               brd   full 8.0 100.0 0.50     0.000     0.000  1.000       0.000       64.000   32.000   29.400  0.000
+standoff                fp   full 8.0 100.0 0.50     0.158     0.000  0.092       0.793      552.192  276.096  515.542 -0.239
+standoff               iql   full 8.0 100.0 0.50     0.000     0.000  0.300       0.850       17.400    8.700   13.584 -0.158
+standoff               spe   full 8.0 100.0 0.50     0.000     0.000  0.000       1.000        2.574    1.287    0.000  0.779
+standoff               sql   full 8.0 100.0 0.50     0.000     0.000  1.000       0.000       64.000   32.000   29.400  0.000
+standoff               brd   part 8.0 100.0 0.50     0.000     0.000  1.000       0.000       64.000   32.000   29.400  0.000
+standoff                fp   part 8.0 100.0 0.50     0.000     0.000  0.006       0.997       30.034   15.017   12.092  0.490
+standoff               iql   part 8.0 100.0 0.50     0.000     0.000  0.000       1.000        8.000    4.000    7.366  0.000
+standoff               spe   part 8.0 100.0 0.50     0.000     0.000  0.000       1.000        2.574    1.287    0.000  0.779
+standoff               sql   part 8.0 100.0 0.50     0.000     0.000  0.074       0.941       26.472   13.236   18.949  0.547
+
+wrote results/standoff/raw.csv, summary.csv, thresholds.csv
